@@ -1,3 +1,8 @@
 source "https://rubygems.org"
 
-gem "httparty" 
+gem "httparty"
+
+
+group :development, :test do
+   gem "rspec"
+end
